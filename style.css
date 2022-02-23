@@ -6,6 +6,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    justify-content: space-between;
 }
 
 header {
@@ -42,7 +43,7 @@ li {
 
 .one-section {
     background: #1f2937;
-    height: 80vh;
+    height: 60vh;
     display: flex;
     align-items: center;
 }
@@ -69,14 +70,75 @@ li {
 
 .one-section-div button {
     background: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    border-style: outset;
+    border-color: #f9faf8;
 }
 
 a {
     text-decoration: none;
-    color: white;
+    color: #e5e7eb;
 }
 
 .img-one {
     max-width: 400px;
     max-height: 350px;
+}
+
+.two-section {
+    height: 60vh;
+    text-align: center;
+    max-width: 100%;
+}
+
+.two-section h1 {
+    padding: 20px;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.two-section-div {
+    margin: 0 auto;
+    max-width: 900px;
+    display: flex;
+    align-items: center;  
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.img-two {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.three-section {
+    height: 60vh;
+    text-align: center;
+    max-width: 100%;
+    background: #e5e7eb;
+    display: flex;
+    align-items: center;
+}
+
+.three-section-div {
+    margin: 0 auto;
+    max-width: 900px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.three-section-div p {
+    margin: 10px;
+}
+
+.three-section-div span {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 30px;
 }
