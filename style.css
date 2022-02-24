@@ -43,9 +43,6 @@ li {
 
 .one-section {
     background: #1f2937;
-    height: 60vh;
-    display: flex;
-    align-items: center;
 }
 
 .one-section-div {
@@ -54,7 +51,11 @@ li {
     color: white;
     display: flex;
     align-items: center;  
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
     gap: 10px;  
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .one-section-div h1 {
@@ -89,7 +90,6 @@ a {
 }
 
 .two-section {
-    height: 60vh;
     text-align: center;
     max-width: 100%;
 }
@@ -107,6 +107,8 @@ a {
     align-items: center;  
     justify-content: space-around;
     flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .img-two {
@@ -115,7 +117,6 @@ a {
 }
 
 .three-section {
-    height: 60vh;
     text-align: center;
     max-width: 100%;
     background: #e5e7eb;
@@ -131,6 +132,8 @@ a {
     color: #1f2937;
     display: flex;
     flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .three-section-div p {
@@ -144,10 +147,9 @@ a {
 }
 
 .four-section {
-    height: 60vh;
     display: flex;
     align-items: center;
-   
+    padding: 50px;
 }
 
 .four-section-div {
