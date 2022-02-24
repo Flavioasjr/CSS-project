@@ -142,3 +142,54 @@ a {
     font-weight: bold;
     font-size: 30px;
 }
+
+.four-section {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+   
+}
+
+.four-section-div {
+    margin: 0 auto;
+    max-width: 900px;
+    background: #3882f6;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    gap: 10px;
+}
+
+.four-section-div h3 {
+    color: #f9faf8;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.four-section-div p {
+    color: #e5e7eb;
+    font-size: 24px;
+}
+
+.four-section-div button {
+    background: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    border-style: outset;
+    border-color: #f9faf8;
+    font-weight: bold;
+    border: 2px solid;
+}
+
+footer {
+    background: #1f2937;
+}
+
+.footer {
+    margin: 0 auto;
+    font-size: 16px;
+    color: #f9faf8;
+    text-align: center;
+}
