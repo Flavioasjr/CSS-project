@@ -7,6 +7,7 @@ body {
     flex-direction: column;
     margin: 0;
     justify-content: space-between;
+    font-family: sans-serif;
 }
 
 header {
@@ -63,6 +64,7 @@ li {
     font-size: 48px;
     margin: 0;
     color: #f9faf8;
+    font-weight: bold;
 }
 
 .one-section-div p {
@@ -74,10 +76,9 @@ li {
     background: #3882f6;
     color: #f9faf8;
     font-size: 18px;
+    font-weight: bold;
     padding: 10px 30px 10px 30px;
     border-radius: 10px;
-    border-style: outset;
-    border-color: #f9faf8;
 }
 
 a {
@@ -130,6 +131,7 @@ a {
     max-width: 900px;
     font-size: 36px;
     font-style: italic;
+    text-align: initial;
     color: #1f2937;
     display: flex;
     flex-direction: column;
@@ -155,23 +157,25 @@ a {
 
 .four-section-div {
     margin: 0 auto;
-    max-width: 900px;
+    max-width: 1100px;
     background: #3882f6;
+    border-radius: 10px;
     display: flex;
     align-items: center;
-    padding: 30px;
-    gap: 10px;
+    padding: 50px 100px;
+    gap: 150px;
 }
 
 .four-section-div h3 {
     color: #f9faf8;
-    font-size: 36px;
-    margin-bottom: 10px;
+    font-size: 24px;
+    margin: 0px;
 }
 
 .four-section-div p {
     color: #e5e7eb;
-    font-size: 24px;
+    font-size: 18px;
+    margin: 0;
 }
 
 .four-section-div button {
@@ -195,4 +199,10 @@ footer {
     font-size: 16px;
     color: #f9faf8;
     text-align: center;
+}
+
+@media (max-width: 800px) {
+    .one-section-div {
+        flex-wrap: wrap;
+    }
 }
