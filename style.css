@@ -150,9 +150,8 @@ a {
 }
 
 .four-section {
-    display: flex;
-    align-items: center;
-    padding: 50px;
+    margin: 50px;
+    max-width: 100%;
 }
 
 .four-section-div {
@@ -204,5 +203,13 @@ footer {
 @media (max-width: 800px) {
     .one-section-div {
         flex-wrap: wrap;
+    }
+
+    .four-section-div {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .four-section {
+        margin: 50px 10px 50px 10px;
     }
 }
